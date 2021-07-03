@@ -1,0 +1,29 @@
+body {
+    font-family: Georgia;
+    background-image: url("./marble_bg.jpg");
+  }
+  
+  h1 {
+    text-align: center;
+    color: white;
+    background-color: seagreen;
+  }
+  
+  h2 {
+    color: seagreen;
+    text-align: center;
+  }
+  
+  h3 {
+    color: cornflowerblue;
+    text-align: center;
+  }
+  
+  table {
+    border: solid cornflowerblue 2px;
+    margin: 0 auto;
+  }
+  
+  td {
+    border: solid cornflowerblue 1px;
+  }

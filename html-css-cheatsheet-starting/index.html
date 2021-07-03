@@ -1,0 +1,194 @@
+<html>
+  <head>
+    <title></title>
+    <link href="./styles.css" rel="stylesheet">
+  </head>
+  <body>
+    <h1>My Cheatsheet</h1>
+    <h2>HTML Notes</h2>
+    <h3>Table Tags</h3>
+    <table class="table">
+      <thead>
+        <tr>
+            <td><b>Tag</b></td>
+            <td><b>Name</b></td>
+            <td><b>Description</b></td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>&lt;table&gt;</td>
+          <td>Table</td>
+          <td>Wrapper element for HTML tables</td>
+        </tr>
+        <tr>
+          <td>&lt;thead&gt;</td>
+          <td>Table Head</td>
+          <td>Rows defining column headers in a table</td>
+        </tr>
+        <tr>
+          <td>&lt;tbody&gt;</td>
+          <td>Table Body</td>
+          <td>Rows containing the actual table data</td>
+        </tr>
+        <tr>
+          <td>&lt;tr&gt;</td>
+          <td>Table Row</td>
+          <td>Table row container</td>
+        </tr>
+        <tr>
+          <td>&lt;td&gt;</td>
+          <td>Table Data</td>
+          <td>Table data container</td>
+        </tr>
+        <tr>
+          <td>&lt;tfoot&gt;</td>
+          <td>Table Foot</td>
+          <td>Rows defining the footer in a table</td>
+        </tr>
+        <tr>
+          <td>&lt;colspan&gt;</td>
+          <td>Column Span</td>
+          <td>Defines how many columns a td element should span</td>
+        </tr>
+        <tr>
+          <td>&lt;rowspan&gt;</td>
+          <td>Row Span</td>
+          <td>Defines how many rows a td element should span</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h3>Lists</h3>
+    <table class="table">
+      <thead>
+        <tr>
+            <td><b>Tag</b></td>
+            <td><b>Name</b></td>
+            <td><b>Description</b></td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>&lt;ul&gt;</td>
+          <td>Unordered List</td>
+          <td>Wrapper element for a bulleted (un-numbered) list.
+            <br>
+            <p>An unordered list will look like this:</p>
+            <ul>
+              <li>Milk</li>
+              <li>Eggs</li>
+              <li>Bread</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>&lt;ol&gt;</td>
+          <td>Ordered List</td>
+          <td>Wrapper element for a ordered (numbered) list.
+            <br>
+            <p>An ordered list will look like this:</p>
+            <ol>
+              <li>Preheat oven</li>
+              <li>Chop vegetables</li>
+              <li>Bake for 30 mins</li>
+            </ol>
+          </td>
+        </tr>
+        <tr>
+          <td>&lt;li&gt;</td>
+          <td>List Item</td>
+          <td>Wrapper element for a list item. Will either be bulleted or numbered.</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h3>Media Tags</h3>
+    <table class="table">
+      <thead>
+        <tr>
+          <td><b>Tag</b></td>
+          <td><b>Name</b></td>
+          <td><b>Description</b></td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>&lt;img&gt;</td>
+          <td>Image</td>
+          <td>Element to add image media. Proper formating is &lt;img src="imagePath" alt="description"/&gt;</td>
+        </tr>
+        <tr>
+          <td>&lt;video&gt;</td>
+          <td>Video</td>
+          <td>Element to add video media. Proper formating is &lt;video src="videoPath" controls&gt;No video support &lt;/video&gt;</td>
+        </tr>
+        <tr>
+          <td>&lt;audio&gt;</td>
+          <td>Audio</td>
+          <td>Element to add audio media. Proper formating is &lt;audio controls&gt;
+              <br>
+              &lt;source src="audioPath" type="audio/type"&gt;No audio support
+              <br> &lt;/audio&gt;
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <br><br><br>
+    <h2>CSS Notes</h2>
+    <h3>Misc.</h3>
+    <table>
+        <thead>
+            <td><b>Note</b></td>
+            <td><b>Description</b></td>
+        </thead>
+        <tbody>
+            <tr>
+                <td>tag type {...}</td>
+                <td>Type the name of the tag you want to add styling to followed by opening and closing curly braces. Styling will go between the braces.</td>
+            </tr>
+            <tr>
+                <td>.className {...}</td>
+                <td>To style a tag by its class name. More specific than tag type, so styling here will override a more general selector.</td>
+            </tr>
+            <tr>
+                <td>#idName {...}</td>
+                <td>To style a tag by its id. More specific than tag type AND class name, so styling here will override both selectors.</td>
+            </tr>
+            <tr>
+                <td>!important</td>
+                <td>Will prioritize a style over other declarations.</td>
+            </tr>
+            <tr>
+                <td>font-family: ...;</td>
+                <td>Styler to change typeface</td>
+            </tr>
+            <tr>
+                <td>font-weight: ...;</td>
+                <td>Styler to change weight of the font. Can be bold, normal, etc.</td>
+            </tr>
+            <tr>
+                <td>font-size: ...;</td>
+                <td>Styler to change the size of the text.</td>
+            </tr>
+            <tr>
+                <td>text-align: ...;</td>
+                <td>Styler to change the alignment of the text. Center, right, left, etc.</td>
+            </tr>
+            <tr>
+                <td>color: ...;</td>
+                <td>Styler to change the color of the selected element.</td>
+            </tr>
+            <tr>
+                <td>background-color: ...;</td>
+                <td>Styler to change the background color of the selected element.</td>
+            </tr>
+            <tr>
+                <td>background-image: ...;</td>
+                <td>Styler to set the background image of the selected element.</td>
+            </tr>
+        </tbody>
+    </table>
+  </body>
+</html>
