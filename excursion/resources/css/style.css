@@ -1,0 +1,18 @@
+body {
+    font-family: Verdana;
+    background-color: black;
+}
+
+h1 {
+    /* font-family: Verdana; */
+    font-weight: normal;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+
+a {
+    color: aquamarine;
+    font-size: 16px;
+    /* find out how to center align this content */
+}
