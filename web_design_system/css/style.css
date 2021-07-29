@@ -1,0 +1,123 @@
+body {
+    background-image: linear-gradient(#170a1f, #5a1647,#881b73, #FB8B43);
+    /* background-image: linear-gradient(#170a1f, #881b73, #FB8B43); */
+    /* background-color: #170a1f; */
+    color: white;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 14px;
+}
+
+header h1 {
+    margin: auto;
+    text-align: center;
+    color: #e5d3e7;
+    font-family: 'Megrim', cursive;
+    /* font-size: 26px; */
+}
+
+h2 {
+    text-align: left;
+    color: #e5d3e7;
+    font-family: 'Righteous', cursive;
+    /* font-size: 18px; */
+}
+
+p {
+    color: white;
+}
+
+footer {
+    border: solid 2px white;
+    background-color: #5a1647;
+    color: white;
+    padding: 1px;
+    margin: 10px;
+    opacity: 0.4;
+}
+
+.styleSection {
+    border: white 2px dotted;
+    padding: 10px;
+    display: inline-block;
+    margin-left: 11.5px;
+    margin-right: 11.5px;
+}
+
+#colors {
+    width: 16%;
+    text-align: center;
+}
+
+#fonts {
+    width: 36%;
+}
+
+#textStyle {
+    width: 36%;
+}
+
+#deepBlush {
+    background-color: #de649a;
+}
+
+#haiti {
+    background-color: #170a1f;
+}
+
+#disco {
+    background-color: #881b73;
+}
+
+#studio {
+    background-color: #854cb5;
+}
+
+#eminence {
+    background-color: #57337b;
+}
+
+#wineBerry {
+    background-color: #5a1647;
+}
+
+#snuff {
+    background-color: #e5d3e7;
+}
+
+#burningOrange {
+    background-color: #FB8B43;
+}
+
+#megrim, .megrim-style {
+    font-family: 'Megrim', cursive;
+}
+
+#righteous, .righteous-style {
+    font-family: 'Righteous', cursive;
+}
+
+#montserratAlt, #montAlt-bold {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 700;
+}
+
+#montAlt-thin-ital {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+#montAlt-reg, .montserrat-style {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 400;
+}
+
+#colors p{
+    border-radius: 35%;
+    font-family: 'Montserrat Alternates', sans-serif;
+    border: 1px solid white;
+}
+
+#fonts li {
+    list-style-type: none;
+}
