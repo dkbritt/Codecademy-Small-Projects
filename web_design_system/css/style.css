@@ -1,7 +1,7 @@
 body {
-    background-image: linear-gradient(#FB8B43, #e5d3e7);
+    background-image: linear-gradient(white, #e5d3e7);
     /* background-image: linear-gradient(#170a1f, #881b73, #FB8B43); */
-    /* background-color: #170a1f; */
+    /* background-color: #e5d3e7; */
     color: black;
     font-family: 'Montserrat Alternates', sans-serif;
     font-size: 14px;
@@ -10,14 +10,15 @@ body {
 header h1 {
     margin: auto;
     text-align: center;
-    color: #e5d3e7;
+    color: #de649a;
     font-family: 'Megrim', cursive;
     /* font-size: 26px; */
 }
 
-h2 {
+.sectionTitle {
     text-align: left;
-    color: #e5d3e7;
+    /* color: #5a1647; */
+    color: #5a1647;
     font-family: 'Righteous', cursive;
     /* font-size: 18px; */
 }
@@ -27,21 +28,43 @@ p {
 }
 
 footer {
-    border: dotted 2px #5a1647;
+    border: dotted 2px #881b73;
     background-color: #e5d3e7;
-    color: white;
     padding: 1px;
-    margin: 10px;
-    /* opacity: 0.4; */
+    margin: 5px 10px 0px 10px; /* order: clockwise (top, right, bottom, left) */
+    /* opacity: 0.2; */
+}
+
+u {
+    color: #05deeb;
+}
+
+.sectionContainer {
+    /* border: #881b73 2px dotted; */
+    /* width: 50%; */
+    display: flex;
 }
 
 .styleSection {
-    border: #5a1647 2px dotted;
-    padding: 10px;
+    border: #881b73 2px dotted;
+    padding: 15px;
     display: inline-block;
     margin-left: 11.5px;
     margin-right: 11.5px;
     height: auto;
+    vertical-align: top;
+    /* padding-bottom: 5rem; */
+    /* margin-bottom: 30%; */
+}
+
+
+
+#textStyle div {
+    color: #854cb5;
+}
+
+#stylePsubheader {
+    color: #854cb5;
 }
 
 #colors {
@@ -69,14 +92,6 @@ footer {
     background-color: #881b73;
 }
 
-#studio {
-    background-color: #854cb5;
-}
-
-#eminence {
-    background-color: #57337b;
-}
-
 #wineBerry {
     background-color: #5a1647;
 }
@@ -85,8 +100,12 @@ footer {
     background-color: #e5d3e7;
 }
 
-#burningOrange {
-    background-color: #FB8B43;
+#persimmon {
+    background-color: #ff5354;
+}
+
+#brightTurq {
+    background-color: #05deeb;
 }
 
 #megrim, .megrim-style {
@@ -116,9 +135,13 @@ footer {
 #colors p{
     border-radius: 35%;
     font-family: 'Montserrat Alternates', sans-serif;
-    border: 1px solid white;
+    border: 1px solid black;
 }
 
 #fonts li {
     list-style-type: none;
+}
+
+footer p {
+    color: #ff5354;
 }
