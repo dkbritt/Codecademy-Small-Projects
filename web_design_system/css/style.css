@@ -162,3 +162,8 @@ u {
 footer p {
     color: #ff5354;
 }
+
+/* add media querys below for different screen sizes */
+@media only screen and (max-width: 760px) {
+    
+}
