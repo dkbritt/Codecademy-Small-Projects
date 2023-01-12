@@ -6,8 +6,10 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
     <!-- fonts -->
-    
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink:wght@700&display=swap" rel="stylesheet">
+    <style> @import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink:wght@700&display=swap'); </style>
     <!-- stylesheet(s) -->
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="styles.css">
@@ -25,9 +27,9 @@
           <h1>Grandeur Getaways</h1>
           <nav class="navigation">
             <ul class="navList">
-              <li><a href="#services-header">Services</a></li>
-              <li><a href="#team-header">Our Team</a></li>
-              <li><a href="#">Follow Us</a></li>
+              <li><a href="#services-title">Services</a></li>
+              <li><a href="#team-title">Our Team</a></li>
+              <li id="follow-us"><a href="https://www.instagram.com" target="_blank">Follow Us <img src="images/instagram.png" alt="Instagram"></a></li>
             </ul>
           </nav>
         </div>
@@ -36,42 +38,52 @@
     <div class="main-content">
       <div class="banner">
         <div class="banner-quote">
-          <h1>Our mission statement...I still need to make one up. TBD</h1>
+          <h1>Curating unforgettable vacations for those with a taste for splendor</h1>
+          <!-- <h4>Join Our Network</h4> -->
         </div>
       </div>
 
+      <div  id="services-title"></div>
+
       <div class="services-section">
-        <h2 id="services-header">Services</h2>
+        <h2>Services</h2>
         <div class="services">
           <div class="service">
             <img src="images/private_jet.jpg" alt="Private jet">
-            <h3>Private and/or first class flights</h3>
+            <p class="img-hover-bg"></p>
+            <h3>Unparalleled Flight Service</h3>
           </div>
 
           <div class="service">
             <img src="images/luxury_car.jpg" alt="Luxury car">
-            <h3>Luxury transfers to/from airport</h3>
+            <p class="img-hover-bg"></p>
+            <h3>Luxury Airport Transfers</h3>
           </div>
 
           <div class="service">
             <img src="images/bathtub_views.jpg" alt="Luxury bathroom with ocean view">
-            <h3>World renowned 5 star resorts</h3>
+            <p class="img-hover-bg"></p>
+            <h3>World Class Resorts</h3>
           </div>
 
           <div class="service">
             <img src="images/fancy_bowl_food.jpg" alt="Bowl of chef curated food">
-            <h3>Chef curated dining experiences</h3>
+            <p class="img-hover-bg"></p>
+            <h3>Chef Curated Dining Experiences</h3>
           </div>
 
           <div class="service">
             <img src="images/luxury_boat.jpg" alt="Luxury Boat">
-            <h3>Private excursions</h3>
+            <p class="img-hover-bg"></p>
+            <h3>Private Excursions</h3>
           </div>
         </div>
       </div>
 
+      <div id="team-title"></div>
+
       <div class="team-section">
-        <h2 id="team-header">Meet Our Team</h2>
+        <h2>Meet Our Team</h2>
         <div class="team">
           <div class="team-member">
             <img src="images/belinda.jfif" alt="Belinda">
@@ -87,8 +99,8 @@
 
           <div class="team-member">
             <img src="images/tanya_mcquoid.jfif" alt="Tanya">
-            <h3>Tanya<h3>
-            <h4>Cultural Advisor</h4>
+            <h3>Tanya</h3>
+            <h4>Culture Advisor</h4>
           </div>
         </div>
       </div>
@@ -101,4 +113,6 @@
     </footer>
     
   </body>
+
+  
 </html>
