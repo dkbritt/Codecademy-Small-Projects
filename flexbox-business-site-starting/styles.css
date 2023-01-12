@@ -1,0 +1,97 @@
+/* colors hex:
+scarlett: 82312e
+bronze: 9f714f
+rouge (pinkish): c58675
+cream: f6e8dd
+gold: c89601
+*/
+.banner {
+    background-image: url("images/textured_sand.jpg");
+    display: flex;
+    height: 37.5rem;
+    width: 100%;
+}
+
+.banner-quote h1{
+    background-color: rgb(130, 49, 46, .5);
+    /* width: 100%; */
+}
+
+.content {
+    display: flex;
+}
+
+.disclaimer {
+    float: right;
+}
+
+header {
+    /* display: flex; */
+    border-bottom: solid 1px #c89601;
+}
+
+header a {
+    text-decoration: none;
+    color:#9f714f;
+}
+
+header a:hover {
+    color: #c89601;
+}
+
+header h1 {
+    color: #82312e;
+}
+
+header nav ul {
+    display: flex;
+    /* float: right; */
+    
+}
+
+html {
+    /* font-family: "Roboto", sans-serif; */
+    font-size: 16px;
+}
+
+.login {
+    float: right;
+}
+
+.logo {
+    width: 10rem;
+    height: 5rem;
+}
+
+nav li {
+    padding-left: 1.5rem;
+}
+
+
+nav ul {
+    list-style: none;
+}
+
+.service {
+    display: block;
+}
+
+.service img {
+    width: 12.5rem;
+    height: 12.5rem;
+    border-radius: 25%;
+}
+
+.services {
+    display: flex;
+}
+
+.team {
+    display: flex;
+}
+
+.team img {
+    width: 12.5rem;
+    height: 12.5rem;
+    border-radius: 50%;
+}
