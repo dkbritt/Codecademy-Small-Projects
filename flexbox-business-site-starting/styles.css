@@ -185,13 +185,26 @@ nav ul {
     background-color: rgb(130, 49, 46, 0.1);
 }
 
+/* Styling for mobile */
+@media only screen and (max-width: 425px) {
+    .services {
+        display: grid;
+        grid-template-columns: 42rem;
+    }
+
+    .service img {
+        width: 40rem;
+        height: 40rem;
+        margin-bottom: 0.5rem;
+    }
+    
+}
 
 /* Styling for tablet */
 @media only screen and (max-width: 768px) {
     .services {
         display: grid;
         grid-template-columns: repeat(2, 20rem);
-        /* grid-auto-rows: auto; */
     }
 
     .service {
@@ -206,19 +219,7 @@ nav ul {
     
 }
 
-/* Styling for mobile */
-@media only screen and (max-width: 425px) {
-    .services {
-        display: grid;
-    }
 
-    .service img {
-        width: 40rem;
-        height: 40rem;
-        margin-bottom: 0.5rem;
-    }
-    
-}
 
 .team {
     display: flex;
