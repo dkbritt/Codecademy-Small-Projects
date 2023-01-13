@@ -1,10 +1,11 @@
 /* colors hex:
 scarlett: #82312e
 bronze: #9f714f
-rouge (pinkish): c58675
-cream: f6e8dd
-gold: c89601
+rouge (pinkish): #c58675
+cream: #f6e8dd
+gold: #c89601
 */
+
 .banner {
     display: flex;
     justify-content: flex-start;
@@ -16,36 +17,23 @@ gold: c89601
     background-repeat: no-repeat;
 }
 
-
-
 .banner-quote h1{
-    /* background-color: rgb(200, 150, 1, 0.5); */
     background-color: rgb(159, 113, 79, 0.5);
     margin-top: 14rem;
     margin-left: 6rem;
-    /* justify-content: center; */
     color: white;
     font-size: 4.25rem;
     height: 100%;
-    width: 55%;
+    width: 60%;
     font-family: 'Metal', cursive;
-    /* font-family: 'Katibeh', cursive; */
 }
 
-/* .banner-quote h4{
-    background-color: rgb(159, 113, 79, 0.5);
-    margin-left: 6rem;
-    justify-content: stretch;
-    color: white;
-    font-size: 2.5rem;
-    height: 100%;
-    width: 55%;
-} */
-
-/* body { */
-    /* background-color: rgb(159, 113, 79, 0.5); */
-    /* background-color: #c89601; */
-/* } */
+/* Styling for tablet */
+@media only screen and (max-width: 768px) {
+    .banner-quote h1{
+        font-size: 3.25rem;
+    }
+}
 
 .disclaimer {
     float: right;
@@ -74,7 +62,6 @@ h2 {
 }
 
 header {
-    /* display: flex; */
     border-bottom: solid 1px #c89601;
     position: fixed;
     z-index: 100;
@@ -95,7 +82,6 @@ header a:hover {
 .header-content {
     display: flex;
     align-items: center;
-    /* padding-left: 1.875rem; */
     padding: 1.875rem 1.875rem 0.5rem 1.875rem;
 }
 
@@ -109,12 +95,10 @@ header h1 {
 
 header nav ul {
     display: flex;
-    /* float: right; */
     
 }
 
 html {
-    /* font-family: "Roboto", sans-serif; */
     font-size: 16px;
 }
 
@@ -139,15 +123,20 @@ nav ul {
 }
 
 .service {
-    display: block;
+    display: flex;
     position: relative;
     border-radius: 25%;
+    width: 12.5rem;
+    height: 12.5rem;
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
 }
 
 .service img {
-    width: 12.5rem;
-    height: 12.5rem;
+    width: 100%;
+    height: 100%;
     border-radius: 25%;
+    
 }
 
 .service h3 {
@@ -155,7 +144,6 @@ nav ul {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    /* background-color: rgb(130, 49, 46, 0.45); */
     color: #fff;
     visibility: visible;
     opacity: 1;
@@ -195,11 +183,42 @@ nav ul {
     margin: 1.875rem 0;
     padding: 1.875rem;
     background-color: rgb(130, 49, 46, 0.1);
-    /* background-color: rgb(200, 150, 1, 0.2); */
-    /* background-color: rgb(159, 113, 79, 0.2); */
 }
 
 
+/* Styling for tablet */
+@media only screen and (max-width: 768px) {
+    .services {
+        display: grid;
+        grid-template-columns: repeat(2, 20rem);
+        /* grid-auto-rows: auto; */
+    }
+
+    .service {
+        width: 18rem;
+        height: 18rem;
+        margin-bottom: 0.5rem;
+    }
+
+    #luxe-boat {
+        width: 38rem;
+    }
+    
+}
+
+/* Styling for mobile */
+@media only screen and (max-width: 425px) {
+    .services {
+        display: grid;
+    }
+
+    .service img {
+        width: 40rem;
+        height: 40rem;
+        margin-bottom: 0.5rem;
+    }
+    
+}
 
 .team {
     display: flex;
@@ -213,6 +232,7 @@ nav ul {
     display: flex;
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
+    padding-top: 0.5rem;
     justify-content: center;
     font-size: 1.25rem;
     font-weight: bold;
@@ -235,3 +255,45 @@ nav ul {
     border-radius: 50%;
 }
 
+
+
+/* Styling for mobile */
+@media only screen and (max-width: 425px) {
+    .team {
+        display: grid;
+    }
+
+    .team-member {
+        display: flex;
+        margin-bottom: 0.5rem;
+    }
+
+    .team h3 {
+        border-top: none;
+        font-size: 2rem;
+        margin: 0;
+        padding: 0;
+        justify-content: start;
+    }
+
+    .team h4 {
+        font-size: 1.5rem;
+        justify-content: start;
+    }
+
+    .team img {
+        width: 15rem;
+        height: 15rem;
+    }
+
+    .member-descr {
+        border-left: solid #c89601 0.0625rem;
+        margin-left: 2rem;
+        margin-right: 1.875rem;
+        align-content: center;
+        display: grid;
+        padding-left: 1rem;
+        grid-template-rows: 2rem 1.5rem;
+    }
+    
+}
