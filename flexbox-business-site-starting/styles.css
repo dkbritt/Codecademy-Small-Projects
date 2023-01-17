@@ -28,12 +28,6 @@ gold: #c89601
     font-family: 'Metal', cursive;
 }
 
-/* Styling for tablet */
-@media only screen and (max-width: 768px) {
-    .banner-quote h1{
-        font-size: 3.25rem;
-    }
-}
 
 .disclaimer {
     float: right;
@@ -51,6 +45,7 @@ footer {
     color: #82312e;
     font-family: 'Metal', cursive;
 }
+
 
 h2 {
     display: flex;
@@ -93,6 +88,7 @@ header h1 {
     font-family: 'Sail', cursive;
 }
 
+
 header nav ul {
     display: flex;
     
@@ -106,6 +102,7 @@ html {
     float: right;
     padding-right: 1.875rem;
 }
+
 
 .logo {
     width: 5rem;
@@ -185,42 +182,6 @@ nav ul {
     background-color: rgb(130, 49, 46, 0.1);
 }
 
-/* Styling for mobile */
-@media only screen and (max-width: 425px) {
-    .services {
-        display: grid;
-        grid-template-columns: 42rem;
-    }
-
-    .service img {
-        width: 40rem;
-        height: 40rem;
-        margin-bottom: 0.5rem;
-    }
-    
-}
-
-/* Styling for tablet */
-@media only screen and (max-width: 768px) {
-    .services {
-        display: grid;
-        grid-template-columns: repeat(2, 20rem);
-    }
-
-    .service {
-        width: 18rem;
-        height: 18rem;
-        margin-bottom: 0.5rem;
-    }
-
-    #luxe-boat {
-        width: 38rem;
-    }
-    
-}
-
-
-
 .team {
     display: flex;
     justify-content: space-evenly;
@@ -256,10 +217,58 @@ nav ul {
     border-radius: 50%;
 }
 
-
-
+/* *********** MEDIA QUERIES *********** */
 /* Styling for mobile */
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 38.5rem) {
+    .banner-quote h1{
+        font-size: 3rem;
+    }
+
+    footer {
+            font-size: 0.875rem;
+            padding: 1rem;
+    }
+
+    header h1 {
+        font-size: 1rem;
+    }
+
+    .header-content {
+        padding: 0.5rem;
+    }
+
+    .login {
+        display: none;
+    }
+
+    
+    
+    .member-descr {
+        border-left: solid #c89601 0.0625rem;
+        margin-left: 2rem;
+        margin-right: 1.875rem;
+        align-content: center;
+        display: grid;
+        padding-left: 1rem;
+        grid-template-rows: 2rem 1.5rem;
+    }
+
+    .services {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+
+    .service {
+        width: 25rem;
+        height: 25rem;
+        margin: 0.5rem 0;
+    }
+
+    .service img {
+        margin-bottom: 0.5rem;
+    }
+
     .team {
         display: grid;
     }
@@ -287,14 +296,29 @@ nav ul {
         height: 15rem;
     }
 
-    .member-descr {
-        border-left: solid #c89601 0.0625rem;
-        margin-left: 2rem;
-        margin-right: 1.875rem;
-        align-content: center;
-        display: grid;
-        padding-left: 1rem;
-        grid-template-rows: 2rem 1.5rem;
-    }
     
 }
+
+
+/* Styling for tablet */
+@media only screen and (min-width: 38.5rem) and (max-width: 48rem) {
+    .banner-quote h1{
+        font-size: 3.25rem;
+    }
+
+    .services {
+        display: grid;
+        grid-template-columns: repeat(2, 20rem);
+    }
+
+    .service {
+        width: 18rem;
+        height: 18rem;
+        margin-bottom: 0.5rem;
+    }
+
+    #luxe-boat {
+        width: 39rem;
+    }
+}
+
