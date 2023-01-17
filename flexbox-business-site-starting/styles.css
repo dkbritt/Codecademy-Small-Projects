@@ -221,11 +221,11 @@ nav ul {
 /* Styling for mobile */
 @media only screen and (max-width: 38.5rem) {
     .banner-quote h1{
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
 
     footer {
-            font-size: 0.875rem;
+            font-size: 0.5rem;
             padding: 1rem;
     }
 
@@ -246,22 +246,27 @@ nav ul {
     .member-descr {
         border-left: solid #c89601 0.0625rem;
         margin-left: 2rem;
-        margin-right: 1.875rem;
+        /* margin-right: 1.875rem; */
         align-content: center;
         display: grid;
         padding-left: 1rem;
         grid-template-rows: 2rem 1.5rem;
     }
 
+    nav {
+        display: none;
+    }
+
     .services {
         display: grid;
         grid-template-columns: 1fr;
         justify-items: center;
+        /* width: 100%; */
     }
 
     .service {
-        width: 25rem;
-        height: 25rem;
+        width: 18rem;
+        height: 18rem;
         margin: 0.5rem 0;
     }
 
@@ -271,29 +276,30 @@ nav ul {
 
     .team {
         display: grid;
+        padding: 1.875rem 0;
     }
 
     .team-member {
         display: flex;
-        margin-bottom: 0.5rem;
+        margin-bottom: 1em;
     }
 
     .team h3 {
         border-top: none;
-        font-size: 2rem;
+        font-size: 1.5rem;
         margin: 0;
         padding: 0;
         justify-content: start;
     }
 
     .team h4 {
-        font-size: 1.5rem;
+        font-size: 1rem;
         justify-content: start;
     }
 
     .team img {
-        width: 15rem;
-        height: 15rem;
+        width: 10rem;
+        height: 10rem;
     }
 
     
@@ -306,6 +312,10 @@ nav ul {
         font-size: 3.25rem;
     }
 
+    #luxe-boat {
+            width: 39rem;
+        }
+
     .services {
         display: grid;
         grid-template-columns: repeat(2, 20rem);
@@ -317,8 +327,10 @@ nav ul {
         margin-bottom: 0.5rem;
     }
 
-    #luxe-boat {
-        width: 39rem;
+    .team-member {
+        margin: 0 .25rem;
     }
+
+    
 }
 
