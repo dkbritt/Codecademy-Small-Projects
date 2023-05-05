@@ -1,0 +1,22 @@
+{
+  "name": "codecademy-course-projects",
+  "version": "1.0.0",
+  "description": "Folder suite of all projects completed in my Codecademy course.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DBraxton6/Codecademy-Course-Projects.git"
+  },
+  "author": "Daisha B.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DBraxton6/Codecademy-Course-Projects/issues"
+  },
+  "homepage": "https://github.com/DBraxton6/Codecademy-Course-Projects#readme",
+  "devDependencies": {
+    "mocha": "^10.2.0"
+  }
+}
